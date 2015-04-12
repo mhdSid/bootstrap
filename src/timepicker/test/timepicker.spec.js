@@ -847,7 +847,7 @@ describe('timepicker directive', function () {
       var el = getMinutesInputEl();
 
       changeInputValueTo(el, 9);
-      expect(getTimeState()).toEqual(['02', '9', 'PM']);
+      expect(getTimeState()).toEqual(['02', '09', 'PM']);
       expect(getModelState()).toEqual([14, 9]);
 
       el.blur();
